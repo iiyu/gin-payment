@@ -1,0 +1,10 @@
+<seelog>
+    <outputs formatid="main">
+        <filter levels="info,debug,critical,error">
+            <file path="./log/log" />
+        </filter>
+    </outputs>
+    <formats>
+        <format id="main" format="%Date %Time [%LEV] [%RelFile:%Line] %Msg%n"/>
+    </formats>
+</seelog>
